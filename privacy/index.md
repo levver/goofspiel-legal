@@ -4,7 +4,7 @@ title: "SYNC: Nexus Control - Privacy Policy"
 
 # SYNC: Nexus Control — Privacy Policy
 
-Last updated: 24 November 2026
+Last updated: 25 November 2026
 
 SYNC: Nexus Control ("SYNC", "the game", Android package `com.levver.sync`) is made by
 Lev Albrant ("we", "us"). This page explains what the game stores about you, why, and
@@ -17,14 +17,13 @@ data.
 ## 1. What we store
 
 ### Your account
-- **Email and password** (email accounts only). Handled by Firebase Authentication; we
-  never see your password.
-- **Guest ID** (guests only). An anonymous ID from Firebase Authentication, not linked to
-  any name, email or phone number.
+- **Email and password.** Handled by Firebase Authentication; we never see your
+  password. Firebase also sends your verification and password-reset emails, and stores
+  whether your email is verified. Online play needs a verified email.
 - **Callsign.** The name other players see. You choose it, or you get a random one like
   `PLAYER-7KQ2`. It is never taken from your email.
 - **Rating and stats.** Your rating (with its deviation and volatility), games played and
-  games won. Guest games are never rated.
+  games won.
 
 ### When you play online
 - **Match records.** Both players' IDs and callsigns, every card bid, the prize order,
@@ -33,8 +32,8 @@ data.
   (`lastSeen`). It decides disconnects.
 - **Current match.** A pointer to the match you're in, so you can rejoin after the app
   closes.
-- **Matchmaking entry.** While you search: your ID, callsign, rating, guest status and
-  when you joined. It is deleted when you're matched, cancel, or stop responding.
+- **Matchmaking entry.** While you search: your ID, callsign, rating and when you
+  joined. It is deleted when you're matched, cancel, or stop responding.
 
 ### Technical data
 Google's servers process your **IP address** and connection details to deliver the
@@ -55,7 +54,7 @@ Practice against the bot without signing in sends nothing to us.
 
 | data | used for |
 |---|---|
-| email, password, guest ID | signing you in |
+| email, password | signing you in; verification and password-reset emails |
 | callsign | showing who you're playing; the leaderboard |
 | rating and stats | matchmaking by skill; the leaderboard; your profile |
 | match records | deciding results fairly on the server; ratings; investigating cheating |
@@ -71,8 +70,7 @@ legitimate interest in fair play and security.
 - **Your opponents** see your callsign, rating and moves in the matches you play with
   them.
 - **Signed-in players** can see the callsign, rating, games played and games won of every
-  registered player who has played a rated match. The leaderboard shows the top 10.
-  Guests never appear there.
+  player who has played a rated match. The leaderboard shows the top 10.
 - **Google (Firebase)** stores and processes the data for us as our service provider,
   under the Firebase data processing terms. The database and server code run in Google's
   `europe-west1` region (Belgium). Sign-in data (Firebase Authentication) is handled by
@@ -88,14 +86,12 @@ profile and leaderboard entry too (see §6 for what stays).
 ## 5. How long we keep it
 
 - **Account, stats and match records:** until you delete your account.
-- **Guest data:** deleted automatically after **12 months** without opening the game,
-  or at once when you delete it.
 - **Matchmaking entries:** until you're matched or cancel.
 - **Server logs:** 30 days, then deleted by Google.
 
 ## 6. Deleting your data
 
-- **In the app:** Settings → Account → **Delete account** (or **Delete guest data**).
+- **In the app:** Settings → Account → **Delete account**.
   It works when you're not in a live match, and takes effect at once.
 - **Without the app:** follow
   https://levver.github.io/goofspiel-legal/delete-account/ or email

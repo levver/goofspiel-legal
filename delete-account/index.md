@@ -11,9 +11,8 @@ You can delete your account and its data at any time, with or without the app.
 ## In the app (fastest)
 
 1. Open SYNC and go to **Settings → Account**.
-2. Tap **Delete account**, or **Delete guest data** if you play as a guest.
-3. Type **DELETE** and tap **Delete permanently**. Email accounts also confirm their
-   password.
+2. Tap **Delete account**.
+3. Type **DELETE**, tap **Delete permanently**, and confirm your password.
 
 It takes effect at once. If you're in a match, finish or forfeit it first.
 
@@ -23,12 +22,9 @@ Email **levalbrant@gmail.com** from your account's address, with the subject
 **"Delete my SYNC account"**. We may ask you to confirm from that address. We delete it
 within **30 days** and reply when it's done.
 
-Guests have no email on file. Delete guest data in the app, or it is deleted
-automatically after 12 months (below).
-
 ## What is deleted
 
-- your sign-in (email and password) or guest ID;
+- your sign-in (email and password);
 - your callsign, rating, stats and leaderboard entry;
 - your current match and matchmaking entry, and any waiting private game you created;
 - your profile and leaderboard entry in the SYNC web game, which shares the account.
@@ -43,9 +39,5 @@ automatically after 12 months (below).
   30 days, then deleted.
 
 Nothing else is kept.
-
-## Automatic deletion
-
-Guest data is deleted automatically after **12 months** without opening the game.
 
 More detail: [Privacy Policy](https://levver.github.io/goofspiel-legal/privacy/).
