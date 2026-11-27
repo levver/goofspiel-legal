@@ -1,12 +1,12 @@
 ---
-title: "SYNC: Nexus Control - Privacy Policy"
+title: "SYNC - Privacy Policy"
 ---
 
-# SYNC: Nexus Control — Privacy Policy
+# SYNC — Privacy Policy
 
 Last updated: 25 November 2026
 
-SYNC: Nexus Control ("SYNC", "the game", Android package `com.levver.sync`) is made by
+SYNC ("the game", Android package `com.levver.sync`) is made by
 Lev Albrant ("we", "us"). This page explains what the game stores about you, why, and
 how to delete it.
 

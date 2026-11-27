@@ -1,8 +1,8 @@
 ---
-title: "SYNC: Nexus Control - Legal"
+title: "SYNC - Legal"
 ---
 
-# SYNC: Nexus Control
+# SYNC
 
 - [Privacy Policy](privacy/)
 - [Delete your account](delete-account/)

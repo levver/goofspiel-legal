@@ -1,10 +1,10 @@
 ---
-title: "Delete your SYNC: Nexus Control account"
+title: "Delete your SYNC account"
 ---
 
-# Delete your SYNC: Nexus Control account
+# Delete your SYNC account
 
-**SYNC: Nexus Control** by **Lev Albrant**
+**SYNC** by **Lev Albrant**
 
 You can delete your account and its data at any time, with or without the app.
 
